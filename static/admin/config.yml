@@ -3,11 +3,11 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-# display_url: https://123growwith.me/ # This url will display in the top-right of the CMS
+# display_url: https://123grow.netlify.com # This url will display in the top-right of the CMS
 media_library:
   name: uploadcare
   config:
-    publicKey: da62e335952354a3ee13
+    publicKey: 57529be15b2bf9f73b75
     multiple: false
     tabs: 'file camera url facebook gdrive'
     effects: 'crop,rotate,enhance,grayscale'
